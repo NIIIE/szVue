@@ -1,0 +1,101 @@
+#mainBox{
+    width:1680px;
+    margin-left:10px;
+    margin-top:10px;
+    border:1px solid rgb(245, 0, 0);
+    height:1000px;  
+}
+#headBox{
+    height:90px;
+    width:1680px;
+    border:1px solid white;
+}
+.leftBox{
+    margin-right:10px;
+    width: 479px;
+    height: 890px;
+    border: 1px solid green;
+    position:relative;
+}
+.eqStateTitle{
+    width: 200px;
+    height: 39px;
+    border: 2px solid lightskyblue;
+    margin-top: 5px;
+    margin-left: 19px;
+    margin-bottom: 15px;
+    font-size:21px;
+    color:lightskyblue;
+    text-align: left;
+    line-height: 42px;
+    padding-left: 10px;
+}
+
+.eqState{
+    display: flex;
+    flex-wrap: wrap;
+    width:96%;
+    margin-left:18px;
+    height:300px;
+    border:1px solid slateblue;
+}
+.state4{
+    border:1px solid rgb(90, 205, 134);
+    width:48%;
+    height:145px;
+    margin-right:3%;
+    margin-bottom:10px;
+}
+.state4:nth-child(even){
+    margin-right:0%;
+}
+.stateAll{
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+    border: 1px solid blue;
+    background-color: lightyellow;
+    position: absolute;
+    left: 156px;
+    top: 127px;
+}
+.eqPerTitle{
+    width: 190px;
+    height: 39px;
+    border: 2px solid lightskyblue;
+    margin-top: 23px;
+    margin-left: 19px;
+    margin-bottom: 15px;
+    font-size:21px;
+    color:lightskyblue;
+    text-align: left;
+    line-height: 42px;
+    padding-left: 10px;
+}
+.eqPerBox{
+    width: 459px;
+    height: 430px;
+    display: flex;
+    margin: 25px 18px;
+    border: 1px solid lightskyblue;
+}
+#eqCharts{
+    width: 484px;
+    height: 358px;
+    margin: 18px 19px 26px 22px;
+    border: 1px solid white;
+
+}
+
+.midBox{
+    margin-top:5px;
+    margin-right:10px;
+    width: 726px;
+    height:890px;
+    border:1px solid skyblue;
+}
+.rightBox{
+    width: 449px;
+    height: 890px;
+    border: 1px solid green;
+}
